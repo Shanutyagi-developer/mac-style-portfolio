@@ -3,7 +3,7 @@ import { navLinks } from "#constants";
 import { navIcons } from "#constants";
 
 import React from "react";
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav>
       <div>
@@ -34,4 +34,5 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
+
