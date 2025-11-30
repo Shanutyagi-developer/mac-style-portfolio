@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
-import { navLinks } from "#constants";
-import { navIcons } from "#constants";
+import { navLinks } from "#constants/index.js";
+import { navIcons } from "#constants/index.js";
 
 import React from "react";
 const Navbar = () => {
@@ -20,15 +20,14 @@ const Navbar = () => {
 
       <div>
         <ul>
-          {navIcons.map(({id , img}) => (
+          {navIcons.map(({ id, img }) => (
             <li key={id}>
-              <img src={img} className="icon-hover" 
-              alt={`icon-${id}`}/>
+              <img src={img} className="icon-hover" alt={`icon-${id}`} />
             </li>
           ))}
         </ul>
-        
-        <time>{dayjs().format('ddd MMM D h:mm A')}</time>
+
+        <time>{dayjs().format("ddd MMM D h:mm A")}</time>
       </div>
     </nav>
   );

@@ -10,8 +10,12 @@ const App = () => {
       <Welcome />
 
       <Dock/>
+      <Navbar/>
+      <Welcome/>
+      
     </main>
   );
 };
 
 export default App;
+export default App; 
