@@ -3,15 +3,22 @@ import { navLinks } from "#constants/index.js";
 import { navIcons } from "#constants/index.js";
 
 import React from "react";
+import useWindowStore from "#store/window";
 const Navbar = () => {
+
+  const { openWindow} = useWindowStore();
+
+
+
+
   return (
     <nav>
       <div>
         <img src="/images/logo.svg" alt="logo" />
         <p className="font-bold">Shanu's Portfolio</p>
         <ul>
-          {navLinks.map(({ id, name }) => (
-            <li key={id}>
+          {navLinks.map(({ id, name, type }) => (
+            <li key={id} onClick = {()=> openWindow(type)}>
               <p>{name}</p>
             </li>
           ))}
