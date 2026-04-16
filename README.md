@@ -44,8 +44,9 @@ This portfolio is deployed using **GitHub Pages**. To deploy:
 
 ## Projects
 
-- **[Project Name]**: Brief description of the project.
-- **[Project Name]**: Brief description of the project.
+- **Health Insurance Premium Prediction Model**: A machine learning model to predict health insurance premiums based on user data.
+- **JavaScript Project**: A project showcasing advanced JavaScript concepts and implementations.
+- **GSAP Implementation**: A project demonstrating animations and transitions using the GSAP library.
 
 ## Technologies Used
 
