@@ -8,14 +8,14 @@ import "react-pdf/dist/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 const Resume = () => {
-  return (
+  return ( 
     <>
       <div id="window-header">
         <WindowControl target="resume" />
         <h2>Resume.pdf</h2>
 
         <a
-          href="files/resume.pdf"
+          href="files/Shanu_resume.pdf"
           download
           className="cursor-pointer"
           title="Download resume"
@@ -24,7 +24,7 @@ const Resume = () => {
         </a>
       </div>
 
-      <Document file="files/resume.pdf">
+      <Document file="files/Shanu_resume.pdf">
         <Page
         pageNumber={1} 
         renderTextLayer

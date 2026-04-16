@@ -41,4 +41,4 @@ const WindowControl = ({ target }) => {
   );
 };
 
-export default WindowControl;
+export default WindowControl; 
