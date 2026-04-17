@@ -1,5 +1,5 @@
 import { socials } from "#constants/index.js";
-import WindowWrapper from "#hoc/WindowWrapper.jsx";
+import WindowWrapper from "../hoc/windowwrapper.jsx";
 import {WindowControl} from "#components";
 import React from "react";
 
