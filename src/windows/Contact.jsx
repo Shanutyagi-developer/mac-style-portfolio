@@ -1,5 +1,5 @@
 import { socials } from "#constants/index.js";
-import WindowWrapper from "../hoc/windowwrapper.jsx";
+import windowwrapper from "../hoc/windowwrapper.jsx";
 import {WindowControl} from "#components";
 import React from "react";
 
@@ -39,6 +39,6 @@ const Contact = () => {
   );
 };
 
-const ContactWindow = WindowWrapper(Contact, "contact");
+const ContactWindow = windowwrapper(Contact, "contact");
 
 export default ContactWindow;
